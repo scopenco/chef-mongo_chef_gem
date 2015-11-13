@@ -48,7 +48,7 @@ end
 ```
 #### Parameters
 - `gem_version` - The version of the `mongo` Rubygem to install into
-  the Chef environment. Defaults to '2.1.0'
+  the Chef environment. Defaults to last version.
 
 #### Actions
 - `:install` - Build and install the gem into the Chef environment
