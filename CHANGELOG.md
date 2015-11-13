@@ -1,0 +1,6 @@
+mongo_chef_gem CHANGELOG
+========================
+
+0.1.0 (2015-11-13)
+------------------
+- Initial release
