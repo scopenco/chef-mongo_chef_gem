@@ -38,7 +38,7 @@ class Chef
         if platform_family?('rhel')
           sasldev_pkg = 'cyrus-sasl-devel'
         else
-          sasldev_pkg = 'libsasl2-dev'
+          sasldev_pkg = ['libsasl2-dev', 'make']
         end
 
         package sasldev_pkg do

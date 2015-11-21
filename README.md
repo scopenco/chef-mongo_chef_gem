@@ -1,6 +1,10 @@
 Mongo Chef Gem Installer Cookbook
 ==================================
+[![Cookbook Version](https://img.shields.io/cookbook/v/mongo_chef_gem.svg)](https://supermarket.chef.io/cookbooks/mongo_chef_gem)
+[![Build Status](https://secure.travis-ci.org/parallels-cookbooks/mongo_chef_gem.png?branch=master)](http://travis-ci.org/parallels-cookbooks/mongo_chef_gem)
 
+Description
+-----
 mongo_chef_gem is a library cookbook that provides an LWRP for use
 in recipes. It provides a wrapper around `chef_gem` called
 `mongo_chef_gem` that eases the installation process, collecting the
