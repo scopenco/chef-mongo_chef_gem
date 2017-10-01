@@ -29,17 +29,18 @@ class Chef
 
       action :install do
         Chef::Log.warn('installing mongo_chef_gem')
+
         gcc = package 'gcc' do
           action :nothing
           only_if { platform_family?('rhel') }
         end
         gcc.run_action(:install)
 
-        if platform_family?('rhel')
-          sasldev_pkg = 'cyrus-sasl-devel'
-        else
-          sasldev_pkg = ['libsasl2-dev', 'make']
-        end
+        sasldev_pkg = if platform_family?('rhel')
+                        'cyrus-sasl-devel'
+                      else
+                        ['libsasl2-dev', 'make']
+                      end
 
         package sasldev_pkg do
           action :nothing
