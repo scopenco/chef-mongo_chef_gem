@@ -1,6 +1,10 @@
 mongo_chef_gem CHANGELOG
 ========================
 
+0.2.2 (2017-10-01)
+------------------
+- Switch to Cookstyle
+
 0.2.0 (2015-11-15)
 ------------------
 - add bson_ext gem
