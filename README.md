@@ -1,29 +1,28 @@
-Mongo Chef Gem Installer Cookbook
-==================================
+# Mongo Chef Gem Installer Cookbook
+
 [![Cookbook Version](https://img.shields.io/cookbook/v/mongo_chef_gem.svg)](https://supermarket.chef.io/cookbooks/mongo_chef_gem)
 [![Build Status](https://secure.travis-ci.org/scopenco/mongo_chef_gem.png?branch=master)](http://travis-ci.org/scopenco/mongo_chef_gem)
 
-Description
------
+## Description
+
 mongo_chef_gem is a library cookbook that provides an LWRP for use
 in recipes. It provides a wrapper around `chef_gem` called
 `mongo_chef_gem` that eases the installation process, collecting the
 prerequisites and side-stepping the compilation phase arms race.
 
-Scope
------
+## Scope
+
 This cookbook is concerned with the installation of the `mongo`
 Rubygem into Chef's gem path. Installation into other Ruby
 environments, or installation of related gems such as `mongo` are
 outside the scope of this cookbook.
 
-Requirements
-------------
-* Chef 11 or higher
-* Ruby 1.9 (preferably from the Chef full-stack installer)
+## Requirements
 
-Usage
------
+* Chef 12 or higher
+
+## Usage
+
 ```ruby
 depends 'mongo_chef_gem', '~> 0.1.0'
 ```
@@ -36,8 +35,8 @@ mongo_chef_gem 'default' do
 end
 ```
 
-Resources Overview
-------------------
+## Resources Overview
+
 ### mongo_chef_gem
 
 The `mongo_chef_gem` resource the build dependencies and installation
@@ -61,8 +60,7 @@ end
 - `:install` - Build and install the gem into the Chef environment
 - `:remove` - Delete the gem from the Chef environment
 
-Authors
--------
+## Authors
 
 - Author:: Andrey Skopenko (<andrey@skopenko.net>)
 
