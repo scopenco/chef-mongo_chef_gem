@@ -1,7 +1,7 @@
 # Mongo Chef Gem Installer Cookbook
 
 [![Cookbook Version](https://img.shields.io/cookbook/v/mongo_chef_gem.svg)](https://supermarket.chef.io/cookbooks/mongo_chef_gem)
-[![Build Status](https://secure.travis-ci.org/scopenco/mongo_chef_gem.png?branch=master)](http://travis-ci.org/scopenco/mongo_chef_gem)
+[![Build Status](https://secure.travis-ci.org/scopenco/chef-mongo_chef_gem.png?branch=master)](http://travis-ci.org/scopenco/chef-mongo_chef_gem)
 
 ## Description
 
