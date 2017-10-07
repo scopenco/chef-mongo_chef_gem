@@ -6,8 +6,7 @@ description      'Provides the mongo_chef_gem resource'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 source_url 'https://github.com/scopenco/chef-mongo_chef_gem'
 issues_url 'https://github.com/scopenco/chef-mongo_chef_gem/issues'
-chef_version '~> 12'
-version          '0.2.2'
+version '0.2.2'
 
 supports 'amazon'
 supports 'redhat'
