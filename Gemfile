@@ -7,6 +7,7 @@ end
 group :lint do
   gem 'foodcritic'
   gem 'rubocop', '~> 0.49.1'
+  gem 'coveralls', require: false
 end
 
 group :unit do
